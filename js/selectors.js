@@ -1,22 +1,20 @@
 // declare your functions here...
-'use-strict';
-
-function h1Selector() {
-  return $('h1');
+function paragraphSelector() {
+  return $('p')
+}
+ 
+function lastImageSelector() {
+  return $('img:last')
 }
 
-function liInOlSelector() {
-  return $('ol li');
+function ninjaBabySelector() {
+  return $('#baby-ninja')
 }
 
-function linkSelector() {
-  return $('div#box4.box5 a');
+function divSelector() {
+  return $('.pics')
 }
 
-function imageSelector() {
-  return $("img[alt='cat sleeping']");
-}
-
-function checkboxInputSelector() {
-  return $(":checkbox");
+function firstListItem(){
+  return $('#pic-list li:first-child')
 }
